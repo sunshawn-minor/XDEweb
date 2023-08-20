@@ -3,35 +3,74 @@
     <head>
         <meta charset="utf-8">
         <style>
-            .txt {
+            .content {
                 text-indent: 2em;
                 font-family: 'Courier New', Courier, monospace;
                 font-weight: bold;
                 color: yellowgreen;
+                text-align: justify;
             }
-            .dashed {
-                font-family: 'Courier New', Courier, monospace;
-                text-decoration: line-through;
-                color: gray;
-            }
+
             aside {
                 float: right;
                 margin-right: 50px;
             }
-            h4 {
-                color: white
+            
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: 'Arial', sans-serif;
+                background-color: #f5f5f5;
+                color: #333;
             }
+
+            h1 {
+                text-align: center;
+                color: antiquewhite;
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+            .floatingitems {
+                height:30px;
+                font-family: 'Courier New', Courier, monospace;
+                color: white;
+                margin-left: 10px;
+                font-weight: bold;
+            }
+
+            .header {
+                background-color: #222;
+                color: #fff;
+                padding: 10px;
+                text-align: center;
+                font-weight: bold;
+            }
+
+            .container {
+                max-width: 900px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: rgb(53, 44, 44);
+                box-shadow: 0 2px 4px rgba(237, 230, 230, 0.1);
+            }
+
+            .dashed {
+                text-decoration: line-through;
+                color: #999;
+                margin-top: 10px;
+            }
+
         </style>
         <title>XDE网络社の招新</title>
     </head>
     <body>
-        <div style=" background-color: black">
+        <div style=" background-color: rgb(53, 44, 44)">
             <div style="height: 10px;"></div>
-            <div style="height:30px; font-family: 'Courier New', Courier, monospace; color: white; margin-left: 10px; font-weight: bold;">加入XDE网络社！</div>
+            <div class="floatingitems">加入XDE网络社！</div>
             <div style="background-color: gray;height: 3px;"></div>
-            <div style="margin: 0 auto; width: 800px;">
-                <h1 style="text-align: center;color: antiquewhite; font-family: 'Courier New', Courier, monospace;">欢迎加入XDE网络社!</h1>
-                <div class="txt">
+            <div class="container">
+                <h1>欢迎加入XDE网络社!</h1>
+                <div class="content">
                     <p>XDE 网络社是我们学校最具活力和创新性的社团之一。作为一个致力于信息竞赛和人工智能研究的团体，我们提供给同学们一个共同发展和学习的平台。</p>
                     <aside>
                         <img src="./img/2.jpg" style="width: 150px;">
@@ -50,22 +89,25 @@
                     <table class="txt">
                         <tr>
                             <td>
-                                <img src="./img/1.jpg" style="width: 250px;">
-                                <div>干翻交附のXDE成员</div>
+                                <img src="./img/1.jpg" style="width: 300px;">
+                                <div class="content">干翻交附のXDE成员</div>
                             </td>
                             <td>
-                                <img src="./img/3.jpg" style="width: 250px;">
-                                <div>网络社日常C++教学</div>
+                                <img src="./img/3.jpg" style="width: 300px;">
+                                <div class="content">网络社日常C++教学</div>
+                                <!--
+                                    TODO: 这里文本不对齐
+                                -->
                             </td>
                             <td>
-                                <img src="./img/4.png" style="width: 250px;">
-                                <div>图像隐写，但是不太文明</div>
+                                <img src="./img/4.png" style="width: 300px;">
+                                <div class="content">图像隐写，但是不太文明</div>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <img src="./img/5.jpg" style="width: 250px;">
-                                <div>网络社在交大举行团建</div>
+                                <img src="./img/5.jpg" style="width: 300px;">
+                                <div class="content">网络社在交大举行团建</div>
                             </td>
                         </tr>
                     </table>
