@@ -122,7 +122,7 @@ img:hover~.d2a
     width : 100%;
     background-color: crimson;
     font-weight: bold;
-    z-index: 9999;
+    /* z-index: 9999; */
 }
 
 .xde

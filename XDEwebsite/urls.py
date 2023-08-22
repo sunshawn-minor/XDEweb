@@ -20,5 +20,7 @@ from . import views
 
 urlpatterns = [
     path('admin', admin.site.urls),
-    path('', views.indexpage)
+    path('', views.indexpage),
+    path('dino-play', views.dino_play),
+    path('index', views.indexpage)
 ]
