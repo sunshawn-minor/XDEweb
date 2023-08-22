@@ -8,4 +8,4 @@
 python manage.py runserver
 ``
 
-或者直接简单粗暴地打开`index.html`
+请不要直接简单粗暴地打开`index.html`!
