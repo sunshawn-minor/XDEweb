@@ -22,5 +22,7 @@ urlpatterns = [
     path('admin', admin.site.urls),
     path('', views.indexpage),
     path('dino-play', views.dino_play),
-    path('index', views.indexpage)
+    path('index', views.indexpage),
+    path('contact-us', views.contact_us),
+    path('submitinfo', views.collect_info)
 ]
