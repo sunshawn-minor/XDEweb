@@ -8,5 +8,5 @@
 python manage.py runserver
 ``
 
-请不要直接简单粗暴地打开`index.html`!
+请不要直接简单粗暴地打开`index.html`!（主要是后端）
 
